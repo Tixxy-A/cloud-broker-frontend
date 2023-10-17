@@ -1,0 +1,4 @@
+export const SETUP_USER_BEGIN = "SET_UP_USER";
+export const SETUP_USER_SUCCESS = "SETUP_USER_SUCCESS";
+export const SETUP_USER_ERROR = "SETUP_USER_ERROR";
+export const HIDE_ALERT = "HIDE_ALERT";
