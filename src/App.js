@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 import SignUp from './pages/SignupPage';
 import Pricing from './pages/PricingPage';
+import User_form from './pages/User-form';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/" exact component={Home} />
 				<Route path="/signup" exact component={SignUp} />
 				<Route path="/pricing" exact component={Pricing} />
+				<Route path="/form" exact component={User_form} />
 			</Switch>
 			<Footer />
 		</Router>
